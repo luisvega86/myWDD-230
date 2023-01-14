@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+
+
+body {
+    display: block;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+main {
+    display: block;
+}
+
+
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+nav {
+    background-color:#292929;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+/* #primaryNav {
+    justify-content: center;
+} */
+/* nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+} */
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #031d44;
+}
+
+img {
+    width: 100px;
+    border-radius: 5px;
+}
+
+/* h2 {
+    text-align: center;
+} */
+
+.card {
+    display: block;
+    -webkit-box-shadow: 0px 10px 10px 1px rgba(80,80,80,0.5);
+    -moz-box-shadow: 0px 10px 10px 1px rgba(80,80,80,0.5);
+    box-shadow: 0px 10px 10px 1px rgba(80,80,80,0.5);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+.card ul {
+    list-style-type: none;
+}
+.card a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+.card p {
+    padding-left: 20px;
+}
+
+#activities {
+    grid-row: 1 / span 2;
+}
+
+h3 {
+    background-color: #031d44;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px 10px 0 0;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #031d44;
+}
+
+.copyright p {
+    display: inline;
+}
+
+.highlight {
+    font-size: 75%;
+}

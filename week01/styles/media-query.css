@@ -1,0 +1,33 @@
+body {
+    max-width: 640px;
+    font-family: Roboto;
+    margin: 1rem auto;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+header {
+    display: flex;
+    background-color: #ADD2C2;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+section {
+    border: 10px solid #ADD2C2;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: #ADD2C2;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+
+
+

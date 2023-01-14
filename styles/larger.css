@@ -1,0 +1,14 @@
+@media screen and (min-width: 900px) {
+    
+    body {
+        max-width: 900px;
+    }
+
+    main  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+
+}
