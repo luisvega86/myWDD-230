@@ -8,12 +8,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-family: 'Red Hat Mono', monospace;
+    background-color: #fff;
+    color: #000;
 }
 
 main {
     display: block;
 }
-
 
 
 nav button {
@@ -25,7 +26,15 @@ nav button {
 }
 
 nav {
+    display: block;
     background-color:#292929;
+}
+#mode {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 nav ul {
@@ -89,6 +98,7 @@ img {
     box-shadow: 0px 10px 10px 1px rgba(80,80,80,0.5);
     border-radius: 10px;
     margin: 20px;
+    color: #031d44
 }
 
 
@@ -96,16 +106,31 @@ img {
     list-style-type: none;
 }
 .card a {
+    color: #031d44;
     text-decoration: none;
-    margin: 20px;
+    margin: 0 auto;
+}
+
+.card a:hover {
+    text-decoration: underline;
+    color: black;
+    font-weight: 600;
 }
 
 .card p {
-    padding-left: 20px;
+    margin: 0 auto;
 }
 
 #activities {
     grid-row: 1 / span 2;
+}
+
+#project a {
+    padding: 20px;
+}
+
+#info p {
+    padding: 20px;
 }
 
 h3 {
