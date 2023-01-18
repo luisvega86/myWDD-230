@@ -35,5 +35,12 @@
 
     }
 
+    .footer {
+        display: flex;
+        background: #283044;
+        border: 3px solid #000;
+
+    }
+
 
 }
