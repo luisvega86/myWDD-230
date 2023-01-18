@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+body {
+    display: block;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+header {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #283044;
+}
+
+
+.logo img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.title {
+    color: #ebf5ee;
+    text-shadow: 4px 4px 9px rgba(255,255,255,0.4);
+    text-align: center;
+}
+
+.title h2 {
+    font-style: italic;
+    margin-top: 0;
+}
+
+.title h1 {
+    margin-bottom: 0;
+}
+.social img{
+    width: 75px;
+    height: 75px;
+}
+
+.hero-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.hero-image img {
+    max-width: 90%;
+    grid-column: 1/4;
+    margin: 0 auto;
+}
+
+.join-button { 
+    grid-column: 2/3;
+    z-index: 1;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+    font-weight: 0;
+    color: #283044;
+    background-color: #ffffff;
+    padding: 5px 15px;
+    margin: 0 auto;
+    border: solid #283044 2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 1px;
+    transition : 500ms;
+    transform: translateY(0);
+    /* text-transform: uppercase; */
+}
+    
+.join-button:hover{ 
+transition : 500ms; 
+padding: 10px 30px; 
+transform : translateY(-0px);
+background-color: #283044;
+color: #ebf5ee;
+border: solid 2px #ebf5ee;
+}
+
+.container {
+    display: block;
+}
