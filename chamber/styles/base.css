@@ -89,3 +89,8 @@ border: solid 2px #ebf5ee;
 .container {
     display: block;
 }
+
+footer {
+    display: block;
+    background: #283044;
+}
