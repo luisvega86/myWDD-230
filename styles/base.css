@@ -89,6 +89,8 @@ header {
 
 .hero img {
 	width: 100%;
+    background: #000;
+    animation: fade 2s;
 }
 
 .herolabel {
@@ -113,14 +115,16 @@ header {
 header img {
     width: 100px;
     border-radius: 5px;
+    background: #000;
+    animation: fade 2s;
 }
 
-img {
+/* img {
     width: 100%;
     background: #000;
     animation: fade 2s;
 
-}
+} */
 
 
 
